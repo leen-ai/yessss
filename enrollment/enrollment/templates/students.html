@@ -1,0 +1,6 @@
+<h1>Student</h1>
+<ul>
+  {% for student in students %}
+    <li>{{ student.name }} ({{ student.contact_no }}) - {{ student.address }} - {{ student.email }} - {{student.LRN}}</li>
+  {% endfor %}
+</ul>

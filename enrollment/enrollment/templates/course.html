@@ -1,0 +1,6 @@
+<h1>Course</h1>
+<ul>
+  {% for course in courses %}
+    <li>subject: {{ course.subject }} - code: {{ course.course_code }} - section: {{ course.section }}</li>
+  {% endfor %}
+</ul>

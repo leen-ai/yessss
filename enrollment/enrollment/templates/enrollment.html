@@ -1,0 +1,6 @@
+<h1>Enrollment</h1>
+<ul>
+  {% for enrollment in enrollments %}
+    <li>{{ enrollment.enrollment_id }} - {{ enrollment.student_id }} - {{ enrollment.course_id }}</li>
+  {% endfor %}
+</ul>

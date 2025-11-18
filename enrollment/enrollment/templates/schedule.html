@@ -1,0 +1,6 @@
+<h1>Schedule</h1>
+<ul>
+  {% for schedule in schedules %}
+    <li>{{ schedule.course_id }} - {{ schedule.schedule_id }} - instructor: {{ schedule.instructor_id }}</li>
+  {% endfor %}
+</ul>
